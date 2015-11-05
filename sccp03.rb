@@ -7,16 +7,16 @@ loop{
   op=op.to_s
   b=b.to_i
   
-  case op 
-  when '+'
-    puts a + b
-  when '-'
-    puts a - b
-  when '*'
-    puts a * b 
-  when '/'  
-    puts a / b
-  when '?'
-    break
-  end
+  puts(  case op 
+       when '+'
+         a + b
+       when '-'
+         a - b
+       when '*'
+         a * b 
+       when '/'  
+         a / b
+       when '?'
+         break
+       end)
 }
