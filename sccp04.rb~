@@ -1,7 +1,0 @@
-# -*- coding: utf-8 -*-
-
-for i in 1..100 do
-  100.times {
-    puts 'Hello World'
-}
-end
