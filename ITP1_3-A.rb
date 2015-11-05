@@ -6,5 +6,3 @@ for i in 1..100 do
          }
        end
      
-     
-     
