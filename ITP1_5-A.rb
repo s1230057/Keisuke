@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
-x,y=STDIN.gets.split.map(&:to_i)
-for i in 1..x do
-  for k in 1..y do
-    print '#'
-  end
-  print "\n"
-end
-print"\n"
+loop{ 
+h,w=STDIN.gets.split.map(&:to_i)
+break if h ==0 && w == 0
+h.times{( puts '#' * w )}
+puts
+}
